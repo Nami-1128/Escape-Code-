@@ -30,7 +30,7 @@ public class Camera : MonoBehaviour
         {
             float angle = (camera.localEulerAngles.x - yMouse * sensibility.y + 360) % 360;
             if(angle > 180) { angle -= 360; }
-            angle = Mathf.Clamp(angle, -90, 90);
+            angle = Mathf.Clamp(angle, -90, 53);
             camera.localEulerAngles = Vector3.right * angle;
         }
 //Bloquear y des-bloquear el mouse con escape vvv
