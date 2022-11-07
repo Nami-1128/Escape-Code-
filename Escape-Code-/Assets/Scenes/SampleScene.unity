@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 356393071}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Grafiti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 484234101}
   m_Layer: 0
   m_Name: Wall2
-  m_TagString: Untagged
+  m_TagString: Grafiti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -487,7 +487,7 @@ GameObject:
   - component: {fileID: 504842296}
   m_Layer: 0
   m_Name: Wall3
-  m_TagString: Untagged
+  m_TagString: Grafiti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 1117910926}
   m_Layer: 0
   m_Name: Wall4
-  m_TagString: Untagged
+  m_TagString: Grafiti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,7 +860,7 @@ GameObject:
   - component: {fileID: 1492040034}
   m_Layer: 0
   m_Name: Wall1
-  m_TagString: Untagged
+  m_TagString: Grafiti
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -955,6 +955,7 @@ GameObject:
   - component: {fileID: 1907045255}
   - component: {fileID: 1907045254}
   - component: {fileID: 1907045257}
+  - component: {fileID: 1907045258}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1027,3 +1028,19 @@ MonoBehaviour:
   runSpeed: 10
   jumpHeight: 1
   gravity: -20
+--- !u!114 &1907045258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907045253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f579dca44f9c5c5449d434802b9754ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 10
+  cam: {fileID: 963194227}
+  logo1: {fileID: 6239579410977217734, guid: 73cff3446cb89d640beaf0f772defe06, type: 3}
+  logo2: {fileID: 6167872777471823722, guid: 8b12c13c78dc6df42bbf6bebe7d83dae, type: 3}
